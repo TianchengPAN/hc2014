@@ -1,0 +1,20 @@
+---
+title: "HW 4"
+author: "Tiancheng Pan"
+date: "11/14/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Brief introduction
+
+To illustrate the Multilevel Modeling Insights, I create a shiny app to reorganized the `HC2014` data set which we have done in lab4. Basically, I add more EDA and organized such EDA with the help of shiny to reduce the redundancy and provide more details. 
+
+Recall that the data is from the Centers for Medicare and Medicaid Services on hospital costs and profit from the 2014 fiscal year. Our interest is in examining variability of net hospital income across states.
+
+There are 3 main part for my shiny. The first is the introduction which provide a brief introduction of the data set and how I will build the model. The second the the EDA part where it show different EDA with the `SelectInput`. And the last part will point out the model I build for the dataset.
+
+The shiny is upload in the github with the link https://github.com/TianchengPAN/hc2014.git. I do not pulish my app due to it's just a simple shiny and the cost of maintain it.
